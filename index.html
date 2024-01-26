@@ -5,21 +5,26 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Soacha Cundinamarca</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="reset.css">
     </head>
 
     <body>
         <header>
-            <h1>Bienvenidos a mi ciudad!</h1>
-
-            <span>HOME</span>
-            <span>NOTICIAS</span>
-            <span>EL CLIMA</span>
+            <div class="titulo"><h1>Bienvenidos a mi ciudad!</h1></div>
+            
+            <div class="enlacesHeader">
+                <span>HOME</span>
+                <span>NOTICIAS</span>
+                <span>EL CLIMA</span>
+            </div>
+           
             <hr />
 
         </header>
 
         <main>
-            <section>
+            <section class="secciones">
                 <article>
                     <h2>Información General</h2>
                     <p>Soacha es un municipio ubicado en el departamento de Cundinamarca, en Colombia. Con una población
@@ -44,7 +49,7 @@
                 <hr />
             </section>
 
-            <section>
+            <section class="secciones">
                 <article>
                     <h3>Historia</h3>
                     <p>
@@ -64,16 +69,22 @@
                         donde se
                         pueden
                         disfrutar de la música, la danza y la gastronomía típica de la región.
-                        <br />
-                        <img src="https://www.cundinamarca.gov.co/wcm/connect/f6a4348a-142c-4140-942e-6120871cf8ae/3.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE-f6a4348a-142c-4140-942e-6120871cf8ae-mFqH8g-"
-                            alt="Foto del parque principal de Soacha" title="Parque Principal de Soacha" />
+                        <br /> 
+                        <hr />
                     </p>
                 </article>
 
-                <hr />
             </section>
 
-            <section>
+            <div class="imagenSoacha">
+                <img src="https://www.cundinamarca.gov.co/wcm/connect/f6a4348a-142c-4140-942e-6120871cf8ae/3.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE-f6a4348a-142c-4140-942e-6120871cf8ae-mFqH8g-"
+                alt="Foto del parque principal de Soacha" title="Parque Principal de Soacha" />
+            </div>
+
+            <br /> 
+            <hr />
+
+            <section class="secciones">
                 <article>
                     <h3>Lugares Turisticos</h3>
                     <p>Aqui tenemos una lista de lugares Turisticos de Soacha</p>
@@ -99,10 +110,10 @@
 
     </body>
 
-    <footer>
+    <footer class="styleFooter">
         <br />
-        <P>
-        Gracias por visitarnos
+        <P >
+        GRACIAS POR VISITARNOS
         </P>
         <br />
     </footer>
